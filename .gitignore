@@ -1,0 +1,15 @@
+# Temporary Build Files
+build/_output
+build/_test
+
+# server auth directory
+/server/
+
+### Python ###
+# Binaries for programs and plugins
+__pycache__
+*.pyc
+debug
+.vscode
+ckpt/*
+data/*

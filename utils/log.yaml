@@ -1,0 +1,22 @@
+version: 1
+formatters:
+  simple:
+    format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+handlers:
+  console:
+    class: logging.StreamHandler
+    level: INFO
+    formatter: simple
+    stream: ext://sys.stdout
+  file:
+    class : logging.handlers.RotatingFileHandler
+    level: INFO
+    formatter: simple
+    filename: './log/myapp.log'
+loggers:
+  sampleLogger:
+    level: INFO
+    handlers: ['console','file']
+root:
+  level: INFO
+  handlers: ['console','file']

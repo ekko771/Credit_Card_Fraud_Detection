@@ -1,0 +1,23 @@
+{
+  "author": "kroos.chen",
+  "build_model": {
+    "save_model": true,
+    "model_location": "./ckpt/",
+    "time_step": 1,
+    "batch_size": 32,
+    "epochs": 5,
+    "num_classes": 1,
+    "num_feature": 29,
+    "learning_rate": 0.001,
+    "lstm_layers": [
+      {
+        "num_units": 256,
+        "keep_prob": 1
+      },
+      {
+        "num_units": 256,
+        "keep_prob": 1
+      }
+    ]
+  }
+}

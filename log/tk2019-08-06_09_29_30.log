@@ -1,0 +1,41 @@
+08-06 09:29:30 matplotlib   DEBUG    CACHEDIR=/home/kroos0314/.cache/matplotlib
+08-06 09:29:30 matplotlib.font_manager DEBUG    Using fontManager instance from /home/kroos0314/.cache/matplotlib/fontlist-v300.json
+08-06 09:29:30 matplotlib.pyplot DEBUG    Loaded backend TkAgg version unknown.
+08-06 09:29:30 app          INFO     config : {'author': 'kroos.chen', 'build_model': {'save_model': True, 'model_location': './ckpt/', 'time_step': 29, 'batch_size': 32, 'epochs': 1, 'num_classes': 1, 'num_feature': 1, 'learning_rate': 0.001, 'lstm_layers': [{'num_units': 256, 'keep_prob': 1}]}}
+08-06 09:29:32 app          INFO     data.head(5) :     0         1         2         3         4         5         6         7   ...        23        24        25        26        27        28      29  30
+0  0.0 -1.359807 -0.072781  2.536347  1.378155 -0.338321  0.462388  0.239599  ... -0.110474  0.066928  0.128539 -0.189115  0.133558 -0.021053  149.62   0
+1  0.0  1.191857  0.266151  0.166480  0.448154  0.060018 -0.082361 -0.078803  ...  0.101288 -0.339846  0.167170  0.125895 -0.008983  0.014724    2.69   0
+2  1.0 -1.358354 -1.340163  1.773209  0.379780 -0.503198  1.800499  0.791461  ...  0.909412 -0.689281 -0.327642 -0.139097 -0.055353 -0.059752  378.66   0
+3  1.0 -0.966272 -0.185226  1.792993 -0.863291 -0.010309  1.247203  0.237609  ... -0.190321 -1.175575  0.647376 -0.221929  0.062723  0.061458  123.50   0
+4  2.0 -1.158233  0.877737  1.548718  0.403034 -0.407193  0.095921  0.592941  ... -0.137458  0.141267 -0.206010  0.502292  0.219422  0.215153   69.99   0
+
+[5 rows x 31 columns]
+08-06 09:29:33 app.lstm_model INFO     build model success
+08-06 09:29:36 app          INFO     Epoch0 loss is 7.100016233598581
+08-06 09:29:37 app          INFO     F1 Score: 0.4998999799959992
+08-06 09:29:37 app          INFO     Accuracy Score: 0.9996
+08-06 09:29:37 app          INFO     Recall: 0.0
+08-06 09:29:37 app          INFO     Precision: 0.0
+08-06 09:29:37 app          INFO     Area Under PR Curve(AP): 0.5002
+08-06 09:29:37 matplotlib.colorbar DEBUG    locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f4b01690dd8>
+08-06 09:29:37 matplotlib.colorbar DEBUG    Using auto colorbar locator on colorbar
+08-06 09:29:37 matplotlib.colorbar DEBUG    locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f4b01690dd8>
+08-06 09:29:37 matplotlib.colorbar DEBUG    Setting pcolormesh
+08-06 09:29:37 matplotlib.font_manager DEBUG    findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/usr/local/lib/python3.6/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+08-06 09:29:37 matplotlib.axes._base DEBUG    update_title_pos
+08-06 09:29:37 matplotlib.font_manager DEBUG    findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/usr/local/lib/python3.6/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+08-06 09:29:37 matplotlib.axes._base DEBUG    update_title_pos
+08-06 09:29:37 matplotlib.axes._base DEBUG    update_title_pos
+08-06 09:29:37 matplotlib.axes._base DEBUG    update_title_pos
+08-06 09:29:37 matplotlib.axes._base DEBUG    update_title_pos
+08-06 09:29:37 matplotlib.axes._base DEBUG    update_title_pos
+08-06 09:29:39 matplotlib.colorbar DEBUG    locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f4b013c41d0>
+08-06 09:29:39 matplotlib.colorbar DEBUG    Using auto colorbar locator on colorbar
+08-06 09:29:39 matplotlib.colorbar DEBUG    locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f4b013c41d0>
+08-06 09:29:39 matplotlib.colorbar DEBUG    Setting pcolormesh
+08-06 09:29:39 matplotlib.axes._base DEBUG    update_title_pos
+08-06 09:29:39 matplotlib.axes._base DEBUG    update_title_pos
+08-06 09:29:39 matplotlib.axes._base DEBUG    update_title_pos
+08-06 09:29:39 matplotlib.axes._base DEBUG    update_title_pos
+08-06 09:29:39 matplotlib.axes._base DEBUG    update_title_pos
+08-06 09:29:39 matplotlib.axes._base DEBUG    update_title_pos
